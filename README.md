@@ -7,5 +7,5 @@ Run project files at https://www.overleaf.com/project
 
 ## Local
 
-User https://miktex.org/
+Use https://miktex.org/ with git hooks from gitinfo2 package
 
