@@ -34,6 +34,9 @@
 \RequirePackage[mark]{gitinfo2}
 %----------------------------------------------------------------------------------------
 
+\usepackage{graphicx}
+\usepackage{float}
+
 \usepackage{csquotes}
 \usepackage{paralist}
 \usepackage{enumitem}
@@ -41,6 +44,8 @@
 \newgeometry{top=1cm,bottom=1cm,right=1cm,left=1cm}
 
 \begin{document}
+	\graphicspath{ {./img} }
+	
 	\input{content/head}
 	\input{content/publications}
 	\input{content/medium}
