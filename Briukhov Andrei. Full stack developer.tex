@@ -34,21 +34,27 @@
 \RequirePackage[mark]{gitinfo2}
 %----------------------------------------------------------------------------------------
 
+\usepackage{efbox,graphicx}
+\usepackage{float}
+
 \usepackage{csquotes}
 \usepackage{paralist}
+\usepackage{enumitem}
+\setlist{nolistsep}
 
 \newgeometry{top=1cm,bottom=1cm,right=1cm,left=1cm}
 
-\begin{document}
+\efboxsetup{linecolor=black,linewidth=1pt}
 
+\begin{document}
+	\graphicspath{ {./img} }
 
 	\input{content/head}
+	\input{content/publications}
+	\input{content/medium}
+	\input{content/OrgAndTechFAQ.tex}
 	\input{content/experience}
 	\input{content/education}
-	\input{content/publications}
-	\input{content/buttom}
 	\input{content/computer}
 	\input{content/legal}
-	\input{content/faq}
-
 \end{document}
